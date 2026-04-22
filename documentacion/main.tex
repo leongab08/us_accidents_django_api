@@ -1,0 +1,119 @@
+% bibtex %.aux
+
+\documentclass{imsart}
+
+\input{./DATA/config.tex}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\includegraphics[width=1\linewidth]{./DATA/Sponsors.pdf}
+
+\vspace{40pt}
+
+\title{TC2007B TEC--SEMAR Proyecto}
+
+\vspace{40pt}
+
+\LARGE{TC2007B Integración de Seguridad Informática en Redes y Sistemas de Software}
+
+\vspace{40pt}
+
+\large{\textit{API/WEB APP Aplicación Predicción Meteorológica  }}
+
+\vspace{20pt}
+
+\large{Reporte de Proyecto}
+
+\vspace{20pt}
+
+\normalsize{Tecnológico de Monterrey }
+
+\vspace{120pt}
+
+\begin{flushleft}
+Autores:\\
+\vspace{10pt}
+Leyva \footnote{Autor correspondiente \href{mailto://rleyv@tec.mx}{rleyv@tec.mx}} \\
+mas ....
+\end{flushleft}
+
+
+
+\runtitle{ \acrshort{API} /WEB APP aplicacion prediccion meteorologica}
+
+
+\end{frontmatter}
+
+
+
+\newpage
+
+\thispagestyle{empty}
+
+\tableofcontents
+
+%\newpage
+
+%\listoffigures
+
+%\newpage
+
+%\listoftables
+
+\newpage
+
+
+\section{Resumen}
+
+Instrucciones: todo lo que se escribe es en presente o en pasado. Es aproximadamente 300 palabras, mas palabras implica que no están exponiendo los términos importantes. Reciclan el lenguaje. Menos de 50 palabras implica que la descripción es incompleta. Tres párrafos (1) plantear el problema o la necesidad puntual. (2) la tecnologia o los metodos que se analizaron o siguieron. (3) resultados de la solucion que se implemento. No es necesario un nivel tecnico avanzado, esto quiere decir que cualquier audencia lo puede leer.
+
+\newpage
+
+\section{Descripción de Métodos}
+
+Es una seccion sin resultados donde se explica cual y como es utilizada la tecnologia para resolver el problema. Esta seccion es ampliamente tecnica. Es necesario incluir una figura del diagrama completo funcional. Por ejemplo el diagrama de flujo. En la Figura \ref{fig:apidiag} se muestra el funcionamienta de la \acrshort{API} desarrollada. Una API es un software que realizar la funcion XYZ (pagina 11 )\cite{preibisch2018api}
+
+\input{DATA/FIGS/FIG_APIdiagrama}
+
+Insertar en codigo json una muestra de la respuesta del sistema. Insertar codigo ejecutable para llamar la API. Para vosualizar el mapa de datos ver el codigo interactivo \footnote{\url{https: colab}}
+
+\begin{equation}
+    \mathcal{F}(x,y) = \sum_{\forall i} I(i,j) e^{-2\pi i}
+\end{equation}
+
+
+\section{Resultados}
+
+\subsection{Experimentacion}
+
+Se debe de mostrar a modo de tablas el uso del sistema y las respuesta que este provee. Se debe incluir una tabla donde se explique que paramametros se probraron, cuales fueron las variables, la respuesta del sistema y evluar si la salida fue satisfactoria.
+
+\subsection{Discusion}
+
+\begin{bashbox}
+python Main.py Capa4 --Query "SELECT * FROM Tabla WHERE CITY LIKE '%Chicago'"
+\end{bashbox}
+
+PUedes comparar los resultados a forma de discusion. YO explico que es mejor.
+
+\section{Conclusiones}
+
+Esta seccion detalla si el problema el cuestion o desarrollo fue resuelto y las implicaciones de un desarrollo mas extenso. Aqui si se puede hablar en futuro. 
+
+
+\newpage
+
+\printglossaries
+
+{\small
+\bibliographystyle{IEEEtran}
+\bibliography{./DATA/refs.bib}
+}
+
+
+\end{document}
+  
+  
+  

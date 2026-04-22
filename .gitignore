@@ -1,0 +1,28 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Django/local DB artifacts
+*.sqlite3
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE/system noise
+.DS_Store
+Thumbs.db
+
+# Dataset files (large/private)
+backend/data/*.csv
